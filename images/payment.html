@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="/JavaScript/images/payment.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h4>Select a <span style="color: brown;">Payment</span>Method</h4>
+        </div>
+
+        <form action="#">
+            <input type="radio" name="payment" id="visa">
+            <input type="radio" name="payment" id="mastercard">
+            <input type="radio" name="payment" id="paypal">
+            <input type="radio" name="payment" id="AMEX">
+
+            <div class="category">
+                <label for="visa" class="visa-method">
+                    <div class="imgName">
+                        <div class="imgContainer visa">
+                            <img src="/JavaScript/images/Payment logo/visa1.png" alt="">
+                        </div>
+                        <span class="name">VISA</span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-check" style="color: brown;"></i></span>
+                </label>
+
+
+                <label for="mastercard" class="mastercard-method">
+                    <div class="imgName">
+                        <div class="imgContainer mastercard">
+                            <img src="/JavaScript/images/Payment logo/mastercard.png" alt="">
+                        </div>
+                        <span class="name">MASTER CARD</span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-check" style="color: brown;"></i></span>
+                </label>
+
+
+                <label for="paypal" class="paypal-method">
+                    <div class="imgName">
+                        <div class="imgContainer paypal">
+                            <img src="/JavaScript/images/Payment logo/paypal.png" alt="">
+                        </div>
+                        <span class="name">PAYPAL</span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-check" style="color: brown;"></i></span>
+                </label>
+
+
+                <label for="AMEX" class="amex-method">
+                    <div class="imgName">
+                        <div class="imgContainer AMEX">
+                            <img src="/JavaScript/images/Payment logo/amex1.png" alt="">
+                        </div>
+                        <span class="name">AMEX</span>
+                    </div>
+                    <span class="check"><i class="fa-solid fa-check" style="color: brown;"></i></span>
+                </label>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
