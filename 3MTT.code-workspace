@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "3MTT",
+			"path": "../../3MTT"
+		},
+		{
+			"name": "Img",
+			"path": "../../Img"
+		},
+		{
+			"name": "Projrct",
+			"path": ".."
+		},
+		{
+			"name": "Project2",
+			"path": "../../Project2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Projrct",
+		"liveServer.settings.port": 5501
+	}
+}
